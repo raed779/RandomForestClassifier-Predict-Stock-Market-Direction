@@ -5,6 +5,3 @@ stages:
     - src/data_streaming.py
     outs:
     - src/prepare_data/AMZN_.csv
-    - src/prepare_data/Indicateur.csv
-    - src/prepare_data/SP500.csv
- 
