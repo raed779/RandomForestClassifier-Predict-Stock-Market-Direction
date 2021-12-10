@@ -4,4 +4,5 @@ stages:
     deps:
     - src/data_streaming.py
     outs:
-    - src/prepare_data/AMZN_.csv
+    - src/prepare_data/X_data.csv
+    - src/prepare_data/y_data.csv
