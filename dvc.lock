@@ -1,0 +1,17 @@
+schema: '2.0'
+stages:
+  data_streaming:
+    cmd: python src/data_preparation.py
+    deps:
+    - path: src/data_preparation.py
+      md5: 4fffb0efa91a5c3bec3ff539fffc970f
+      size: 3801
+    - path: src/prepare_data/AMZN_.csv
+      md5: 978176a0cf6bee446b04f56510c86c00
+      size: 230711
+    - path: src/prepare_data/Indicateur.csv
+      md5: 7b8cf16af4c8e63280fddc309ce132c9
+      size: 1177432
+    - path: src/prepare_data/SP500.csv
+      md5: 0d7151ad9c7a58ca67925217d7010f71
+      size: 246435
